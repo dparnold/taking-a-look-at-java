@@ -8,25 +8,26 @@
  
  I had a problem with a symbolic link to java:
  
- The command: file /etc/alternatives/java /etc/alternatives/javac
+ The command: 
+  `file /etc/alternatives/java /etc/alternatives/javac`
  gave me the following output:
  
-/etc/alternatives/java:  broken symbolic link to /usr/lib/jvm/java-9-openjdk-amd64/bin/java
+  `/etc/alternatives/java:  broken symbolic link to /usr/lib/jvm/java-9-openjdk-amd64/bin/java`
 
-/etc/alternatives/javac: symbolic link to /usr/lib/jvm/java-8-openjdk-amd64/bin/javac
+  `/etc/alternatives/javac: symbolic link to /usr/lib/jvm/java-8-openjdk-amd64/bin/javac`
 
 Therfore the command java would not work
 
 
 To fix this, I removed the symbolic link and created the correct one to openjdk 8:
 
-  rm {link-name}
+ ` rm {link-name}`
   
-  ln -s {/path/to/file-name} {link-name}
+  `ln -s {/path/to/file-name} {link-name}`
   
-  sudo rm /etc/alternatives/java
+  `sudo rm /etc/alternatives/java`
   
-  sudo ln -s /usr/lib/jvm/java-8-openjdk-amd64/bin/java /etc/alternatives/java
+ `sudo ln -s /usr/lib/jvm/java-8-openjdk-amd64/bin/java /etc/alternatives/java`
 
   
 
