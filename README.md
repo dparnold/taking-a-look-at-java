@@ -46,3 +46,6 @@ This is done by:
 richt click on project -> Properties -> Java Compiler
 
 Then `ArrayList<Integer> arraylist = new ArrayList<Integer>();` is working
+### Java related topics ###
+1.  Non-static methods, we run on the instance instead of on the class.
+
