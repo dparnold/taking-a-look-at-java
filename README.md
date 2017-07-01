@@ -5,13 +5,14 @@
 2. Installing eclipse IDE:
   `sudo apt-get install eclipse`
 3. Create the HelloWorld program:
+
   Open eclipse -> Help -> Cheat Sheets -> Java Developement -> Create a Hello World application
 
 ## Compiling and Excecuting without eclipse ##
 1. Compiling:
-  javac HelloWorld.java
+  `javac HelloWorld.java`
 2. Excetuting:
-  java HelloWorld
+  `java HelloWorld`
  
 ## Other things I learned ## 
  I had a problem with a symbolic link to java:
