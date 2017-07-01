@@ -1,11 +1,19 @@
 # taking-a-look-at-java
+## What I need ##
 1. Setting up java on Linux:
-  sudo apt-get install openjdk-8-jdk
-2. Compiling:
+  `sudo apt-get install openjdk-8-jdk`
+2. Installing eclipse IDE:
+  `sudo apt-get install eclipse`
+3. Create the HelloWorld program:
+  Open eclipse -> Help -> Cheat Sheets -> Java Developement -> Create a Hello World application
+
+## Compiling and Excecuting without eclipse ##
+1. Compiling:
   javac HelloWorld.java
-3. Excetuting:
+2. Excetuting:
   java HelloWorld
  
+## Other things I learned ## 
  I had a problem with a symbolic link to java:
  
  The command: 
