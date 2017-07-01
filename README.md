@@ -44,4 +44,5 @@ I needed to change the compiler compliance level from 1.2 to at least 1.5 in **e
 This is done by:
 
 richt click on project -> Properties -> Java Compiler
+
 Then `ArrayList<Integer> arraylist = new ArrayList<Integer>();` is working
